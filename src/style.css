@@ -1,0 +1,333 @@
+
+body{
+    margin: 0 auto;
+    color: #333;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+    background-color: #c4a47c;
+}
+
+.logo {
+    max-width: 100px; /* Largura máxima do logo */
+    height: auto; /* Mantém a proporção original da imagem */
+}
+  
+  /* Estilos para a navegação */
+.navegacao {
+    list-style: none; /* Remove marcadores de lista */
+    padding: 0; /* Remove o espaçamento interno da lista */
+    display: flex; /* Alinha os itens horizontalmente */
+}
+  
+.navegacao li {
+    margin-right: 20px; /* Espaçamento entre os itens da navegação */
+}
+  
+  /* Estilos para os links de navegação */
+.navegacao a {
+    font-family: 'oswald', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none; /* Remove sublinhado dos links */
+    color: #fff; /* Cor dos links */
+}
+ 
+.parallax1 {
+    height: 80vh; /* Ajuste a altura da sua seção */
+    background-image: url(imagem/parallax-imagem1.png); /* Substitua pelo caminho da sua imagem */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Adiciona o efeito parallax */
+    text-align: center; /* Centraliza o conteúdo verticalmente */
+    color: white; /* Define a cor do texto */
+    display: flex; /* Centraliza verticalmente o conteúdo */
+    align-items: center; /* Centraliza verticalmente o conteúdo */
+    justify-content: center;
+}
+  
+.parallax1 h1 {
+    font-family: 'fraunces', sans-serif;
+    font-size: 55px; /* Tamanho da fonte do título */
+    font-weight: bold; /* Estilo da fonte do título */
+
+}
+
+.container-com-texto1 {
+    width: 100%;
+    padding: 100px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento de texto */
+    display: block; /* Faz os parágrafos se comportarem como blocos */
+    margin-bottom: 10px;
+    margin: 0 auto; /* Centralizar o container na página */
+}
+
+.container-com-texto1 h2 {
+    font-family: 'oswald', sans-serif;
+    text-align: center;
+    font-size: 24px; /* Tamanho da fonte do título */
+    margin-bottom: 10px; /* Espaçamento abaixo do título */
+}
+
+.container-com-texto1 p {
+    font-family: 'lato', sans-serif;
+    font-size: 16px; /* Tamanho da fonte do texto */
+    line-height: 1.4; /* Espaçamento entre linhas */
+}
+
+.parallax2 {
+    height: 80vh; /* Ajuste a altura da sua seção */
+    background-image: url(imagem/parallax-imagem2.jpg); /* Substitua pelo caminho da sua imagem */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Adiciona o efeito parallax */
+    text-align: center; /* Centraliza o conteúdo verticalmente */
+    color: white; /* Define a cor do texto */
+    display: flex; /* Centraliza verticalmente o conteúdo */
+    align-items: center; /* Centraliza verticalmente o conteúdo */
+    justify-content: center;
+}
+  
+.parallax2 h3 {
+    background-color: #604829;
+    font-family: 'fraunces', sans-serif;
+    font-size: 55px;
+    font-weight: bold;
+    display: inline-block; /* Define o elemento como inline-block */
+    padding: 5px 10px; /* Adicione espaço ao redor do texto conforme necessário */
+    margin: 0; /* Remove margens para evitar espaçamento adicional */
+}
+  
+
+.container-com-texto2 {
+    width: 100%;
+    padding: 100px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento de texto */
+    display: block; /* Faz os parágrafos se comportarem como blocos */
+    margin-bottom: 10px;
+    margin: 0 auto; /* Centralizar o container na página */
+}
+
+.container-com-texto2 h2 {
+    font-family: 'oswald', sans-serif;
+    text-align: center;
+    font-size: 24px; /* Tamanho da fonte do título */
+    margin-bottom: 10px; /* Espaçamento abaixo do título */
+}
+
+.container-com-texto2 p {
+    font-family: 'lato', sans-serif;
+    font-size: 16px; /* Tamanho da fonte do texto */
+    line-height: 1.4; /* Espaçamento entre linhas */
+}
+
+.parallax3 {
+    height: 80vh; /* Ajuste a altura da sua seção */
+    background-image: url(imagem/parallax-imagem3.jpg); /* Substitua pelo caminho da sua imagem */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Adiciona o efeito parallax */
+    text-align: center; /* Centraliza o conteúdo verticalmente */
+    color: white; /* Define a cor do texto */
+    display: flex; /* Centraliza verticalmente o conteúdo */
+    align-items: center; /* Centraliza verticalmente o conteúdo */
+    justify-content: center;
+}
+  
+.parallax3 h3 {
+    background-color: #604829;
+    font-family: 'fraunces', sans-serif;
+    font-size: 55px;
+    font-weight: bold;
+    display: inline-block; /* Define o elemento como inline-block */
+    padding: 5px 10px; /* Adicione espaço ao redor do texto conforme necessário */
+    margin: 0; /* Remove margens para evitar espaçamento adicional */
+ }
+
+.container-com-texto3 {
+    width: 100%;
+    padding: 100px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento de texto */
+    display: block; /* Faz os parágrafos se comportarem como blocos */
+    margin-bottom: 10px;
+    margin: 0 auto; /* Centralizar o container na página */
+}
+
+.container-com-texto3 h2 {
+    font-family: 'oswald', sans-serif;
+    text-align: center;
+    font-size: 24px; /* Tamanho da fonte do título */
+    margin-bottom: 10px; /* Espaçamento abaixo do título */
+}
+
+.container-com-texto3 p {
+    font-family: 'lato', sans-serif;
+    font-size: 16px; /* Tamanho da fonte do texto */
+    line-height: 1.4; /* Espaçamento entre linhas */
+}
+
+.contato{
+    height: 80vh; /* Ajuste a altura da sua seção */
+    background-image: url(imagem/parallax-imagem4.png); /* Substitua pelo caminho da sua imagem */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Adiciona o efeito parallax */
+    text-align: center; /* Centraliza o conteúdo verticalmente */
+    color: white; /* Define a cor do texto */
+    padding-top: 5%;
+    align-items: center; /* Centraliza verticalmente o conteúdo */
+    justify-content: center;
+}
+.contato2{
+    font-family: 'fraunces', sans-serif;
+    font-size: 18px; /* Tamanho da fonte do título */
+    font-weight: bold; /* Estilo da fonte do título */
+    text-align: center; /* Centraliza o conteúdo verticalmente */
+    background-color: #604829;
+    padding: 5px 10px; /* Adicione espaço ao redor do texto conforme necessário */
+    margin: 0; /* Remove margens para evitar espaçamento adicional */  
+    display: inline-block; /* Define o elemento como inline-block */
+    opacity: 0.7; /* Define a transparência (valor entre 0 e 1) */
+
+}
+
+.box-contato{
+    font-family: 'fraunces', sans-serif;
+    font-size: 18px; /* Tamanho da fonte do título */
+    font-weight: bold; /* Estilo da fonte do título */
+    text-align: center; /* Centraliza o conteúdo verticalmente */
+    background-color: #604829;
+    padding: 5px 10px; /* Adicione espaço ao redor do texto conforme necessário */
+    margin: 0; /* Remove margens para evitar espaçamento adicional */  
+    display: inline-block; /* Define o elemento como inline-block */
+    padding-top: 5px;
+    opacity: 0.7; /* Define a transparência (valor entre 0 e 1) */
+
+}
+
+.mapa iframe {
+    width: 100%; /* Defina a largura desejada, pode ser em porcentagem ou em pixels */
+    max-width: 800px; /* Defina a largura máxima desejada */
+    height: 400px; /* Defina a altura desejada */
+    border: none; /* Remove a borda padrão do iframe, se houver */
+    opacity: 0.7; /* Define a transparência (valor entre 0 e 1) */
+}
+
+/* Estilizando a div que envolve os horários */
+.horarios {
+    height: 80vh;
+    background-image: url(imagem/cafeteria.jpg);
+    padding: 20px;
+    text-align: center;
+    margin: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Adiciona o efeito parallax */
+    display: flex; /* Centraliza verticalmente o conteúdo */
+    align-items: center; /* Centraliza verticalmente o conteúdo */
+    justify-content: center;
+    flex-direction: column; /* Empilha elementos verticalmente */
+}
+
+/* Estilizando o título "HORÁRIOS DE FUNCIONAMENTO" */
+.horarios h2 {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+/* Estilizando a lista de horários */
+.horarios .horarios-list {
+    display: flex;
+    align-items: center;
+    margin-top: 10px; /* Adiciona margem entre o título e a lista */
+}
+
+/* Estilizando os dias da semana, traço e horários de funcionamento */
+.horarios .horarios-list p {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+/* Estilizando os dias da semana */
+.horarios .horarios-day {
+    font-size: 18px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-right: 10px; /* Espaçamento entre o dia e o traço */
+}
+
+/* Estilizando o traço entre os dias e horários */
+.horarios .traço {
+    background-color: white;
+    margin: 0 20px; /* Aumenta o espaçamento horizontal entre o dia e o traço */
+    border-top: 1px solid white; /* Adiciona uma borda superior como traço */
+    width: 650px; /* Aumenta o tamanho do traço */
+    display: flex; /* Centraliza verticalmente o conteúdo */
+    align-items: center; /* Centraliza verticalmente o conteúdo */
+    justify-content: center;
+    height: 1px;
+}
+
+/* Estilizando os horários de funcionamento */
+.horarios .horarios-time, .horarios .horarios-close {
+    font-size: 16px;
+    text-align: right;
+    margin-left: 10px; /* Move os horários para a direita */
+}
+
+.horarios .horarios-close {
+    color: #c4a47c;
+}
+
+.horarios .horarios-time {
+    color: white;
+}
+
+
+
+
+/* Estilizando o rodapé */
+footer {
+    background-color: #000000; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o conteúdo */
+}
+
+/* Estilizando o parágrafo dentro do rodapé */
+footer p {
+    margin: 0; /* Remove margens padrão */
+}
+
+/* Estilizando o link no rodapé (se aplicável) */
+footer a {
+    color: white; /* Cor do link */
+    text-decoration: none; /* Remove sublinhado padrão */
+}
+
+/* Estilizando o link no rodapé quando hover (se aplicável) */
+footer a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+#btn-scroll-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    cursor: pointer;
+}
